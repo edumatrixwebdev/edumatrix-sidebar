@@ -1,10 +1,70 @@
 .parent-isi4-active {
-    background: rgb(241, 241, 241);
-    margin-right: 20px;
-    border-radius: 0 10px 10px 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 5px;
-    cursor: pointer;
-    transition: 100ms;
+  background: rgb(241, 241, 241);
+  margin-right: 20px;
+  border-radius: 0 10px 10px 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: 100ms;
+}
+.box-guru {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: rgb(0, 149, 218);
+}
+.img-guru {
+  width: 40%;
+  margin-left: 10px;
+}
+.content-guru {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.title-guru {
+  color: white;
+  font-size: 35px;
+}
+.desk-guru {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.img-all-teacher {
+    text-align: center;
+    margin-top: 150px;
+}
+.marque-teacher {
+    position: relative;
+    z-index: -1;
+    padding: 20px;
+    color: rgb(58, 58, 58);
+}
+
+@media only screen and (max-width: 768px) {
+    .content-guru {
+        display: grid;
+    }
+    .img-guru {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .content-guru {
+        padding: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .pro-teacher {
+        width: 100%;
+    }
 }

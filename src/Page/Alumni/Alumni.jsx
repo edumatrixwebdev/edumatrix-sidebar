@@ -90,6 +90,17 @@ const Alumni = () => {
                 <FontAwesomeIcon icon={faHistory} /> Alumni Story
               </h4>
             </div>
+
+            <a href="https://web.whatsapp.com/send?phone=6281215523902&text=Kak%20Eka%2C%20saya%20ingin%20tahu%20mengenai%20Program%20Edumatrix%2C%20Bimbel%20Persiapan%20Masuk%20PTN.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
+              <div className="parent-isi6">
+                <button className="btn-sidebar">Daftar Sekarang</button>
+              </div>
+            </a>
+
+            <p className="copyright">
+              © All rights reserved • Edumatrix Indonesia
+            </p>
+
           </ul>
         </nav>
       </IconContext.Provider>

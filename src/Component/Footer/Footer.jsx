@@ -39,7 +39,7 @@ const Footer = () => {
             <a className="phone-href" href="tel:+6281215523902">+62 81-215523902</a>
           </div>
           <div className="mail-footer">
-            <FontAwesomeIcon icon={faEnvelope} />
+            <FontAwesomeIcon icon={faEnvelope} /> 
             <p>
               <a href="mailto:edumatrix.id@gmail.com">edumatrix.id@gmail.com</a>
             </p>
@@ -54,7 +54,7 @@ const Footer = () => {
         <br />
           <p className="footer-company-about">
            <p className="desk-comp">
-           EDUMATRIX Indonesia adalah lembaga bimbingan belajar untuk Persiapan
+            EDUMATRIX Indonesia adalah lembaga bimbingan belajar untuk Persiapan
             Masuk Kedokteran, PTN dan Kedinasan. Program ini menjadi solusi
             terbaik untuk siswa agar sukses masuk UI ITB UGM IPB Unpad dan
             Perguruan Tinggi Negeri Favorit serta Sekolah Tinggi Kedinasan.

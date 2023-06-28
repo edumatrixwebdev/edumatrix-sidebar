@@ -48,7 +48,7 @@
   padding-bottom: 0;
 }
 
-/* BOX DETAIL */
+
 .parent-detail {
   display: flex;
   justify-content: center;
@@ -83,7 +83,7 @@
   margin-left: 10px;
 }
 
-/* TITLE HOME */
+
 .title-home {
   color: white;
   font-size: 35px;
@@ -94,7 +94,7 @@
   margin-top: 20px;
 }
 
-/* SELURUH PROGRAM */
+
 .title-program-edu {
   text-align: center;
   color: rgb(0, 149, 218);
@@ -112,7 +112,7 @@
   color: rgb(80, 80, 80);
 }
 
-/* KEUNGGULAN EDU */
+
 .parent-keunggulan {
   text-align: center;
   margin-top: 10px;
@@ -138,7 +138,7 @@
   border-left: 1px solid rgb(212, 212, 212);
 }
 
-/* BTN DAFTAR */
+
 .btn-daftar-viawa {
   background: rgb(15, 168, 15);
   padding: 20px;
@@ -183,7 +183,7 @@
   font-size: 20px;
 }
 
-/* JADWAL KEGIATAN */
+
 .box-jadwal {
   display: flex;
   margin-top: 250px;
@@ -202,7 +202,7 @@
   text-align: justify;
 }
 
-/* BTN-ANIMATION*/
+
 .btn-sidebar {
   margin-left: 35px;
   cursor: pointer;
@@ -225,7 +225,7 @@
   color: rgb(80, 80, 80);
 }
 
-/* DAFTAR END */
+
 .daftar-end {
   background: rgb(243, 251, 255);
   padding: 30px;
@@ -269,7 +269,7 @@
   margin-bottom: 10px;
 }
 
-/* ALL ACCORDION */
+
 .all-accordion {
   margin-top: 250px;
   padding-left: 80px;
@@ -283,7 +283,7 @@
   color: rgb(0, 149, 218);
 }
 
-/* FLOAT CALL */
+
 .box-wa {
   position: fixed;
   width: 100%;
@@ -329,13 +329,13 @@
   cursor: pointer;
 }
 
-/* LOGO UNIV */
+
 .parent-univ {
   text-align: center;
   margin-top: 250px;
 }
 
-/* PROMO */
+
 .parent-promo {
   text-align: center;
   margin-top: 250px;
@@ -345,7 +345,7 @@
   color: rgb(0, 149, 218);
 }
 
-/* RESPONSIVE */
+
 @media only screen and (max-width: 768px) {
   .content-home {
     display: grid;

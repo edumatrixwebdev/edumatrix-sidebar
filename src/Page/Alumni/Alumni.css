@@ -38,7 +38,7 @@
   width: 50%;
 }
 
-/* SUCCESS STORY */
+
 .title-story {
   color: rgb(0, 149, 218);
 }
@@ -68,7 +68,7 @@
   color: rgb(0, 149, 218);
 }
 
-/* IMG ALUMNI */
+
 .parent-img-alumni {
   margin-top: 250px;
   text-align: center;
@@ -86,7 +86,6 @@
 }
 
 
-/* FLOAT CALL */
 .box-wa {
   position: fixed;
   width: 100%;
@@ -132,18 +131,18 @@
   cursor: pointer;
 }
 
-/* RUN TEXT */
+
 .run-text {
   padding: 20px;
   color: rgb(82, 82, 82);
 }
 
-/* UNIV ALUMNI */
+
 .univ-alumni {
   text-align: center;
 }
 
-/* RESPONSIVE */
+
 @media only screen and (max-width: 768px) {
   .inti-img-alumni {
     width: 100%;

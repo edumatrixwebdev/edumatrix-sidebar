@@ -37,7 +37,7 @@
   padding-bottom: 0;
 }
 
-/* CARD PRIORITI */
+
 .parent-card {
   display: flex;
   justify-content: center;
@@ -98,7 +98,7 @@
 }
 
 
-/* BTN ANIMATION */
+
 .btn-pilih-paket {
   position: relative;
   width: 100%;
@@ -252,7 +252,7 @@
 }
 
 
-/* SLIDE */
+
 .parent-slide {
   margin-top: 250px;
 }
@@ -303,7 +303,7 @@
   cursor: pointer;
 }
 
-/* DAFTAR END */
+
 .daftar-end {
   background: rgb(243, 251, 255);
   padding: 30px;
@@ -347,14 +347,14 @@
   margin-bottom: 10px;
 }
 
-/* UNIV DOKTER */
+
 .univ-dokter {
   text-align: center;
   margin-top: 250px;
 }
 
 
-/* RESPONSIVE */
+
 @media only screen and (max-width: 768px) {
   .content-dokter {
     display: grid;

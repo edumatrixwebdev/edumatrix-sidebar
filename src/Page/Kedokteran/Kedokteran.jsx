@@ -97,7 +97,7 @@ const Kedokteran = () => {
         </nav>
       </IconContext.Provider>
 
-      {/* BOX DOKTER */}
+
       <div className="box-dokter">
         <div className="content-dokter">
           <div>
@@ -198,7 +198,7 @@ const Kedokteran = () => {
         </div>
       </div>
 
-      {/* PAKET PRIORITY */}
+
       <div className="parent-card">
         <div className="card-prioriti">
           <div className="header-prioriti">
@@ -382,7 +382,6 @@ const Kedokteran = () => {
             </li>
           </div>
           <div className="parent-btn-prio">
-            {/* <button className="btn-paket-prioriti">Pilih Paket</button> */}
             <a
               className="a-pilih-paket"
               href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Aulia,%20saya%20ingin%20daftar%20Supercamp%20Garansi%20Priority%20Masuk%20Kedokteran%202023.%20Mohon%20info%20selengkapnya%20..."
@@ -430,7 +429,7 @@ const Kedokteran = () => {
 
       <Footer />
 
-      {/* FLOAT CALL */}
+
       <div className="box-wa">
         <a href="https://web.whatsapp.com/send?phone=6281215523902&text=Halo Kak%20Eka%2C%20saya%20ingin%20tahu%20mengenai%20Program%20Edumatrix%2C%20Bimbel%20Persiapan%20Masuk%20PTN.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
           <button className="btn-wa">

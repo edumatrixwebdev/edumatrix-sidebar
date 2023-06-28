@@ -50,9 +50,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-right">
+        <h2 style={{color: "white"}}>Tentang Edumatrix Indonesia</h2>
+        <br />
           <p className="footer-company-about">
-            <h2>Tentang Edumatrix Indonesia</h2>
-            <br />
            <p className="desk-comp">
            EDUMATRIX Indonesia adalah lembaga bimbingan belajar untuk Persiapan
             Masuk Kedokteran, PTN dan Kedinasan. Program ini menjadi solusi

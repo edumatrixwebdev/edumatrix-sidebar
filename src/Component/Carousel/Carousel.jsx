@@ -39,7 +39,7 @@ function Carousel() {
         className="swiper_container"
       >
         <div className="all-program">
-          {/* 1 */}
+
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -54,7 +54,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 2 */}
+ 
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -69,7 +69,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 3 */}
+
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -84,7 +84,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 4 */}
+
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -99,7 +99,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 5 */}
+
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -116,7 +116,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 6 */}
+
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -131,7 +131,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 7 */}
+   
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -146,7 +146,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 8 */}
+       
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -161,7 +161,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 9 */}
+    
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -176,7 +176,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 10 */}
+
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -191,7 +191,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 11 */}
+ 
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -206,7 +206,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 12 */}
+     
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -221,7 +221,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 13 */}
+
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -236,7 +236,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 14 */}
+    
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -251,7 +251,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 15 */}
+
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -266,7 +266,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 16 */}
+
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -281,7 +281,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
           
-          {/* 17 */}
+    
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -296,7 +296,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
           
-          {/* 18 */}
+
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -311,7 +311,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-           {/* 19 */}
+   
            <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -326,7 +326,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-           {/* 20 */}
+      
            <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -341,7 +341,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 21 */}
+     
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"
@@ -356,7 +356,7 @@ function Carousel() {
             </div>
           </SwiperSlide>
 
-          {/* 22 */}
+          
           <SwiperSlide className="slide-3d">
             <img
               className="img-program"

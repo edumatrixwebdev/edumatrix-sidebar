@@ -94,7 +94,7 @@ const Alumni = () => {
         </nav>
       </IconContext.Provider>
 
-      {/* ISI ALUMNI */}
+
       <div className="box-alumni">
         <div className="content-alumni">
           <div>
@@ -578,7 +578,7 @@ const Alumni = () => {
 
       <Footer />
 
-      {/* FLOAT CALL */}
+
       <div className="box-wa">
         <a href="https://web.whatsapp.com/send?phone=6281215523902&text=Halo Kak%20Eka%2C%20saya%20ingin%20tahu%20mengenai%20Program%20Edumatrix%2C%20Bimbel%20Persiapan%20Masuk%20PTN.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
           <button className="btn-wa">

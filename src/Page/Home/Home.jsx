@@ -51,9 +51,6 @@ const Home = () => {
             className="icon-bars"
             onClick={showSidebar}
           />
-          {/* <div className="parent-title-nav">
-          <h3 className="title-navbar-home">Matrix Indonesia</h3>
-          </div> */}
         </div>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>
@@ -106,7 +103,7 @@ const Home = () => {
         </nav>
       </IconContext.Provider>
 
-      {/* ISI HOME */}
+
       <div className="box-home">
         <div className="content-home">
           <div>
@@ -209,7 +206,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* KEUNTUNGAN EDU */}
+
       <div className="parent-keunggulan">
         <div className="keunggulan-edu">
           <div className="pengajar-muda">
@@ -247,7 +244,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* SELURUH PROGRAM */}
+
       <div className="seluruh-program">
         <h1 className="title-program-edu">Program Edumatrix Indonesia</h1>
         <p className="desk-all-program">
@@ -261,7 +258,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* PROMO */}
+
       <div className="parent-promo">
         <h1 className="title-promo">Promo Terpopuler Maret 2023</h1>
         <img
@@ -276,7 +273,7 @@ const Home = () => {
         />
       </div>
 
-      {/* JADWAL KEGIATAN */}
+
       <div className="box-jadwal">
         <div>
           <h1 className="title-jadwal">Jadwal Kegiatan</h1>
@@ -419,7 +416,7 @@ const Home = () => {
 
       <Footer />
 
-      {/* FLOAT CALL */}
+
       <div className="box-wa">
         <a href="https://web.whatsapp.com/send?phone=6281215523902&text=Halo Kak%20Eka%2C%20saya%20ingin%20tahu%20mengenai%20Program%20Edumatrix%2C%20Bimbel%20Persiapan%20Masuk%20PTN.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
           <button className="btn-wa">

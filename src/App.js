@@ -3,9 +3,8 @@ import Home from './Page/Home/Home';
 import Sidebar from './Component/Sidebar/Sidebar';
 
 function App() {
-  return (
-    <Home />
-  );
+  return <Home />
+    
 }
 
 export default App;

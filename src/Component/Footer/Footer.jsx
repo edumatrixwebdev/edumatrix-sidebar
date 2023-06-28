@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="footer-center">
           <div className="location-footer">
             <FontAwesomeIcon icon={faLocationDot} />
-            &nbsp;<span>Bale Wangsa Residence Kav. 70,</span><br />Sendangadi, Mlati,
+            <span>Bale Wangsa Residence Kav. 70,</span><br />Sendangadi, Mlati,
             Sleman, Daerah Istimewa Yogyakarta
           </div>
           <div className="phone-footer">
@@ -41,7 +41,7 @@ const Footer = () => {
           <div className="mail-footer">
             <FontAwesomeIcon icon={faEnvelope} />
             <p>
-              <a href="mailto:edumatrix.id@gmail.com">&nbsp;edumatrix.id@gmail.com</a>
+              <a href="mailto:edumatrix.id@gmail.com">edumatrix.id@gmail.com</a>
             </p>
           </div>
           <div className="logo-hilpi">

@@ -38,7 +38,6 @@
   width: 50%;
 }
 
-
 .title-story {
   color: rgb(0, 149, 218);
 }
@@ -68,7 +67,6 @@
   color: rgb(0, 149, 218);
 }
 
-
 .parent-img-alumni {
   margin-top: 250px;
   text-align: center;
@@ -80,11 +78,10 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.slide-alumni  {
+.slide-alumni {
   text-align: center;
   margin-top: 250px;
 }
-
 
 .box-wa {
   position: fixed;
@@ -131,7 +128,6 @@
   cursor: pointer;
 }
 
-
 .run-text {
   position: relative;
   z-index: -1;
@@ -139,11 +135,9 @@
   color: rgb(82, 82, 82);
 }
 
-
 .univ-alumni {
   text-align: center;
 }
-
 
 @media only screen and (max-width: 768px) {
   .inti-img-alumni {

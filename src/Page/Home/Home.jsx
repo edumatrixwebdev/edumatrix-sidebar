@@ -103,7 +103,6 @@ const Home = () => {
         </nav>
       </IconContext.Provider>
 
-
       <div className="box-home">
         <div className="content-home">
           <div>
@@ -206,7 +205,6 @@ const Home = () => {
         </div>
       </div>
 
-
       <div className="parent-keunggulan">
         <div className="keunggulan-edu">
           <div className="pengajar-muda">
@@ -244,7 +242,6 @@ const Home = () => {
         </div>
       </div>
 
-
       <div className="seluruh-program">
         <h1 className="title-program-edu">Program Edumatrix Indonesia</h1>
         <p className="desk-all-program">
@@ -257,7 +254,6 @@ const Home = () => {
           <Carousel />
         </div>
       </div>
-
 
       <div className="parent-promo">
         <h1 className="title-promo">Promo Terpopuler Maret 2023</h1>
@@ -272,7 +268,6 @@ const Home = () => {
           alt=""
         />
       </div>
-
 
       <div className="box-jadwal">
         <div>
@@ -389,6 +384,15 @@ const Home = () => {
         />
       </div>
 
+      <div className="parent-video">
+        <iframe
+          className="ratio-yt"
+          src="https://www.youtube.com/embed/wOzZYV9ocLs"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+
       <div className="parent-univ">
         <img
           className="img-univ"
@@ -415,7 +419,6 @@ const Home = () => {
       </div>
 
       <Footer />
-
 
       <div className="box-wa">
         <a href="https://web.whatsapp.com/send?phone=6281215523902&text=Halo Kak%20Eka%2C%20saya%20ingin%20tahu%20mengenai%20Program%20Edumatrix%2C%20Bimbel%20Persiapan%20Masuk%20PTN.%20Bagaimana%20penjelasan%20detail%20programnya%3F">

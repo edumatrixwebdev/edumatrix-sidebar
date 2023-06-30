@@ -48,7 +48,6 @@
   padding-bottom: 0;
 }
 
-
 .parent-detail {
   display: flex;
   justify-content: center;
@@ -64,7 +63,6 @@
   background: white;
   border-radius: 20px;
   margin-top: 30px;
-
 }
 
 .icon {
@@ -83,7 +81,6 @@
   margin-left: 10px;
 }
 
-
 .title-home {
   color: white;
   font-size: 35px;
@@ -93,7 +90,6 @@
   font-size: 20px;
   margin-top: 20px;
 }
-
 
 .title-program-edu {
   text-align: center;
@@ -111,7 +107,6 @@
   font-size: 19px;
   color: rgb(80, 80, 80);
 }
-
 
 .parent-keunggulan {
   text-align: center;
@@ -137,7 +132,6 @@
 .tingkat-kelulusan {
   border-left: 1px solid rgb(212, 212, 212);
 }
-
 
 .btn-daftar-viawa {
   background: rgb(15, 168, 15);
@@ -183,7 +177,6 @@
   font-size: 20px;
 }
 
-
 .box-jadwal {
   display: flex;
   margin-top: 250px;
@@ -201,7 +194,6 @@
   color: rgb(80, 80, 80);
   text-align: justify;
 }
-
 
 .btn-sidebar {
   margin-left: 35px;
@@ -224,7 +216,6 @@
   font-weight: 600;
   color: rgb(80, 80, 80);
 }
-
 
 .daftar-end {
   background: rgb(243, 251, 255);
@@ -269,7 +260,6 @@
   margin-bottom: 10px;
 }
 
-
 .all-accordion {
   margin-top: 250px;
   padding-left: 80px;
@@ -282,7 +272,6 @@
   margin-bottom: 25px;
   color: rgb(0, 149, 218);
 }
-
 
 .box-wa {
   position: fixed;
@@ -329,12 +318,10 @@
   cursor: pointer;
 }
 
-
 .parent-univ {
   text-align: center;
   margin-top: 250px;
 }
-
 
 .parent-promo {
   text-align: center;
@@ -345,7 +332,20 @@
   color: rgb(0, 149, 218);
 }
 
+.parent-video {
+  text-align: center;
+  margin-top: 250px;
+}
+.ratio-yt {
+  width: 75%;
+  height: 750px;
+  max-width: 100%;
+  border: 10px solid white;
+  border-radius: 30px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
 
+/* IPAD MINI */
 @media only screen and (max-width: 768px) {
   .content-home {
     display: grid;
@@ -406,8 +406,334 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+  .ratio-yt {
+    width: 90%;
+    height: 500px;
+    border: 5px solid white;
+  }
+}
+/* IPAD AIR */
+@media only screen and (max-width: 820px) {
+  .content-home {
+    display: grid;
+  }
+  .box-detail {
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .desk-icon {
+    margin-right: 20px;
+  }
+  .img-home {
+    width: 100%;
+  }
+  .parent-btn {
+    text-align: center;
+  }
+  .btn-daftar-viawa {
+    width: 48%;
+  }
+  .btn-daftar-viahp {
+    width: 48%;
+  }
+  .keunggulan-edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seluruh-program {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .h4-tingkat-kelulusan {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .h4-metode {
+    width: 63%;
+  }
+  .img-keunggulan {
+    width: 50%;
+  }
+  .box-jadwal {
+    display: grid;
+  }
+  .img-univ {
+    width: 100%;
+  }
+  .daftar-end {
+    text-align: center;
+  }
+  .img-promo {
+    width: 100%;
+  }
+  .parent-promo {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .ratio-yt {
+    width: 90%;
+    height: 500px;
+    border: 5px solid white;
+  }
+}
+/* SURFACE PRO 7 */
+@media only screen and (max-width: 912px) {
+  .content-home {
+    display: grid;
+  }
+  .box-detail {
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .desk-icon {
+    margin-right: 20px;
+  }
+  .img-home {
+    width: 100%;
+  }
+  .parent-btn {
+    text-align: center;
+  }
+  .btn-daftar-viawa {
+    width: 48%;
+  }
+  .btn-daftar-viahp {
+    width: 48%;
+  }
+  .keunggulan-edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seluruh-program {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .h4-tingkat-kelulusan {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .h4-metode {
+    width: 63%;
+  }
+  .img-keunggulan {
+    width: 50%;
+  }
+  .box-jadwal {
+    display: grid;
+  }
+  .img-univ {
+    width: 100%;
+  }
+  .daftar-end {
+    text-align: center;
+  }
+  .img-promo {
+    width: 100%;
+  }
+  .parent-promo {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .img-jadwal {
+    width: 100%;
+  }
+  .title-jadwal {
+    font-size: 38px;
+  }
+  .desk-jadwal {
+    font-size: 25px;
+  }
+  .ratio-yt {
+    width: 90%;
+    height: 500px;
+    border: 5px solid white;
+  }
+}
+/* SURFACE DUO */
+@media only screen and (max-width: 540px) {
+  .parent-promo {
+    padding: 10px;
+  }
+  .gambar-hilpi {
+    width: 50% !important;
+  }
+  .ratio-yt {
+    width: 90%;
+    height: 500px;
+    border: 5px solid white;
+  }
+}
+/* NEST HUB */
+@media only screen and (max-width: 1024px) {
+  .content-home {
+    display: grid;
+  }
+  .box-detail {
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .desk-icon {
+    margin-right: 20px;
+  }
+  .img-home {
+    width: 100%;
+  }
+  .parent-btn {
+    text-align: center;
+  }
+  .btn-daftar-viawa {
+    width: 48%;
+  }
+  .btn-daftar-viahp {
+    width: 48%;
+  }
+  .keunggulan-edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seluruh-program {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .h4-tingkat-kelulusan {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .h4-metode {
+    width: 63%;
+  }
+  .img-keunggulan {
+    width: 50%;
+  }
+  .box-jadwal {
+    display: grid;
+  }
+  .img-univ {
+    width: 100%;
+  }
+  .daftar-end {
+    text-align: center;
+  }
+  .img-promo {
+    width: 100%;
+  }
+  .parent-promo {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn-daftar-viahp {
+    width: 50%;
+  }
+  .img-keunggulan {
+    width: 40%;
+  }
+  .box-jadwal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+  }
+  .btn-daftar-viahp {
+    width: 100% !important;
+    margin-left: 0;
+  }
+  .btn-daftar-viawa {
+    width: 100% !important;
+  }
+  .ratio-yt {
+    width: 90%;
+    height: 500px;
+    border: 5px solid white;
+  }
+}
+/* NEST HUB MAX */
+@media only screen and (max-width: 1280px) {
+  .content-home {
+    display: grid;
+  }
+  .box-detail {
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .desk-icon {
+    margin-right: 20px;
+  }
+  .img-home {
+    width: 100%;
+  }
+  .parent-btn {
+    text-align: center;
+  }
+  .btn-daftar-viawa {
+    width: 48%;
+  }
+  .btn-daftar-viahp {
+    width: 48%;
+  }
+  .keunggulan-edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seluruh-program {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .h4-tingkat-kelulusan {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .h4-metode {
+    width: 63%;
+  }
+  .img-keunggulan {
+    width: 50%;
+  }
+  .box-jadwal {
+    display: grid;
+  }
+  .img-univ {
+    width: 100%;
+  }
+  .daftar-end {
+    text-align: center;
+  }
+  .img-promo {
+    width: 100%;
+  }
+  .parent-promo {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn-daftar-viahp {
+    width: 50%;
+  }
+  .img-keunggulan {
+    width: 40%;
+  }
+  .box-jadwal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+  }
+  .ratio-yt {
+    width: 90%;
+    height: 550px;
+    border: 5px solid white;
+  }
 }
 
+/* IPHONE XR */
 @media only screen and (max-width: 550px) {
   .title-home {
     font-size: 25px;
@@ -440,15 +766,19 @@
   }
   .content-home {
     padding: 15px;
+    padding-bottom: 0;
   }
   .btn-daftar-viahp {
     margin-left: 0;
     width: 100%;
   }
   .btn-daftar-viawa {
-    width: 100%;
+    width: 100% !important;
   }
-
+  .btn-daftar-viahp {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
   .box-detail {
     display: grid;
   }
@@ -528,7 +858,7 @@
     font-size: 23px;
   }
   .img-keunggulan {
-    width: 30%;
+    width: 25%;
   }
   .btn-hp-end {
     margin-left: 0;
@@ -536,5 +866,200 @@
   }
   .daftar-end {
     padding: 15px;
+  }
+  .h4-metode {
+    margin-top: 20px;
+  }
+  .bahan-ajar {
+    margin-top: 20px;
+  }
+  .tingkat-kelulusan {
+    margin-top: 20px;
+  }
+  .title-program-edu {
+    font-size: 25px;
+  }
+  .desk-all-program {
+    text-align: justify;
+    font-size: 18px;
+  }
+  .title-promo {
+    font-size: 23px;
+  }
+  .title-jadwal {
+    font-size: 25px;
+  }
+  .desk-jadwal {
+    font-size: 18px;
+  }
+  .title-daftar-end {
+    font-size: 25px !important;
+  }
+  .daftar-end {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .desk-daftar-end {
+    font-size: 18px !important;
+  }
+  .title-accordion {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  .ratio-yt {
+    width: 90%;
+    height: 400px;
+    border: 5px solid white;
+  }
+}
+/* IPHONE SE */
+@media only screen and (max-width: 375px) {
+  .daftar-end {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  .title-accordion {
+    font-family: "Varela Round', sans-serif";
+  }
+  .parent-promo {
+    padding: 10px;
+  }
+  .title-program-edu {
+    font-size: 23px !important;
+  }
+  .ratio-yt {
+    width: 90%;
+    height: 400px;
+    border: 5px solid white;
+  }
+}
+/* IPHONE 12 PRO */
+@media only screen and (max-width: 390px) {
+  .parent-promo {
+    padding: 10px;
+  }
+  .title-promo {
+    font-size: 25px;
+  }
+  .title-program-edu {
+    font-size: 25px;
+  }
+  .desk-all-program {
+    font-size: 17px;
+    text-align: justify;
+  }
+  .img-keunggulan {
+    width: 20%;
+  }
+  .h4-metode {
+    margin-top: 20px;
+  }
+  .bahan-ajar {
+    margin-top: 20px;
+  }
+  .tingkat-kelulusan {
+    margin-top: 20px;
+  }
+  .title-jadwal {
+    font-size: 25px;
+  }
+  .desk-jadwal {
+    font-size: 17px;
+  }
+  .title-daftar-end {
+    font-size: 25px !important;
+  }
+  .daftar-end {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  .desk-daftar-end {
+    font-size: 18px !important;
+  }
+}
+/* PIXEL 5 */
+@media only screen and (max-width: 393px) {
+  .gambar-hilpi {
+    width: 90%;
+  }
+  .title-accordion {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  .title-jadwal {
+    font-size: 23px;
+  }
+  .desk-jadwal {
+    font-size: 17px;
+  }
+  .title-promo {
+    font-size: 20px;
+  }
+  .parent-promo {
+    padding: 10px;
+  }
+  .title-program-edu {
+    font-size: 23px;
+  }
+  .desk-all-program {
+    font-size: 17px;
+  }
+}
+/* GALAXY S8+ */
+@media only screen and (max-width: 360px) {
+  .title-program-edu {
+    font-size: 22px !important;
+  }
+  .desk-all-program {
+    font-size: 16px;
+  }
+  .title-jadwal {
+    font-size: 20px;
+  }
+  .desk-jadwal {
+    font-size: 16px;
+  }
+}
+/* GALAXY S20 ULTRA */
+@media only screen and (max-width: 412px) {
+  .title-program-edu {
+    font-size: 22px;
+  }
+  .desk-all-program {
+    font-size: 16px;
+  }
+  .title-jadwal {
+    font-size: 23px;
+  }
+  .desk-jadwal {
+    font-size: 16px;
+  }
+  .parent-promo {
+    padding: 20px;
+  }
+  .title-accordion {
+    font-size: 22px;
+  }
+}
+/* GALAXY FOLD */
+@media only screen and (max-width: 280px) {
+  .parent-promo {
+    padding: 10px;
+  }
+  .ratio-yt {
+    width: 90%;
+    height: 300px;
+    border: 5px solid white;
+  }
+}
+/* GALAXY A51 */
+@media only screen and (max-width: 412px) {
+  .desk-icon {
+    margin-right: 0 !important;
+  }
+  .img-keunggulan {
+    width: 30% !important;
   }
 }

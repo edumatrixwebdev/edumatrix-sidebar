@@ -345,3 +345,35 @@
 .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--primary);
 }
+
+/* SURFACE DUO */
+/* @media only screen and (max-width: 540px) {
+  .name-slider-dokter {
+    font-size: 25px;
+  }
+  .desk-slider-dokter {
+    font-size: 17px !important;
+  }
+  .slide-3d-dokter {
+    width: 10rem !important;
+  }
+  .slide-3d-dokter {
+    width: 10rem !important;
+  }
+  .slide-3d {
+    width: 10rem !important;
+  }
+  .slide-3d {
+    width: 10rem !important;
+  }
+  .swiper-slide {
+    width: 10rem !important;
+  }
+} */
+
+/* IPHONE SE */
+@media only screen and (max-width: 375px) {
+    .container {
+      max-width: 40rem !important;
+    }
+}

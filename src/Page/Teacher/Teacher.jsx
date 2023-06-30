@@ -202,7 +202,7 @@ const Teacher = () => {
 
       <div className="marque-teacher">
         <marquee>
-          <h2>
+          <h2 className="run-text-teacher">
             Dengan Guru yang Berpengalaman Anda bisa Meraih PTN Impian | Dengan
             Guru yang Berpengalaman Anda bisa Meraih PTN Impian | Dengan Guru
             yang Berpengalaman Anda bisa Meraih PTN Impian | Dengan Guru yang
@@ -240,6 +240,26 @@ const Teacher = () => {
       </div>
 
       <Footer />
+
+      <div className="box-wa">
+        <a href="https://web.whatsapp.com/send?phone=6281215523902&text=Halo Kak%20Eka%2C%20saya%20ingin%20tahu%20mengenai%20Program%20Edumatrix%2C%20Bimbel%20Persiapan%20Masuk%20PTN.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
+          <button className="btn-wa">
+            <a
+              className="wa"
+              href="https://web.whatsapp.com/send?phone=6281215523902&text=HaloKak%20Eka%2C%20saya%20ingin%20tahu%20mengenai%20Program%20Edumatrix%2C%20Bimbel%20Persiapan%20Masuk%20PTN.%20Bagaimana%20penjelasan%20detail%20programnya%3F"
+            >
+              <FontAwesomeIcon icon={faWhatsapp} /> WhatsApp
+            </a>
+          </button>
+        </a>
+        <a href="tel:+6281215523902">
+          <button className="btn-call">
+            <a href="tel:+6281215523902" className="call">
+              <FontAwesomeIcon icon={faPhone} /> Telepon
+            </a>
+          </button>
+        </a>
+      </div>
     </React.Fragment>
   );
 };

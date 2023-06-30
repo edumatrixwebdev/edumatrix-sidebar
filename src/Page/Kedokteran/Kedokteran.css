@@ -37,7 +37,6 @@
   padding-bottom: 0;
 }
 
-
 .parent-card {
   display: flex;
   justify-content: center;
@@ -80,7 +79,7 @@
   padding-bottom: 10px;
   font-size: 17px;
   border-radius: 10px;
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
   transition: 200ms;
   cursor: pointer;
 }
@@ -97,8 +96,6 @@
   text-decoration: none;
 }
 
-
-
 .btn-pilih-paket {
   position: relative;
   width: 100%;
@@ -106,7 +103,7 @@
   color: #000000;
   background: transparent;
   overflow: hidden;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -116,7 +113,10 @@
   border: none;
 }
 
-.top, .right, .bottom, .left {
+.top,
+.right,
+.bottom,
+.left {
   position: absolute;
   border-radius: 100vmax;
 }
@@ -251,8 +251,6 @@
   }
 }
 
-
-
 .parent-slide {
   margin-top: 250px;
 }
@@ -302,7 +300,6 @@
   cursor: pointer;
 }
 
-
 .daftar-end {
   background: rgb(243, 251, 255);
   padding: 30px;
@@ -346,14 +343,12 @@
   margin-bottom: 10px;
 }
 
-
 .univ-dokter {
   text-align: center;
   margin-top: 250px;
 }
 
-
-
+/* IPAD MINI */
 @media only screen and (max-width: 768px) {
   .content-dokter {
     display: grid;
@@ -380,7 +375,322 @@
   .list-prioriti {
     column-count: 1;
   }
+  .title-prioriti {
+    text-align: center;
+  }
 }
+/* IPAD AIR */
+@media only screen and (max-width: 820px) {
+  .content-dokter {
+    display: grid;
+  }
+  .box-detail {
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .desk-icon {
+    margin-right: 20px;
+  }
+  .img-dokter {
+    width: 100%;
+  }
+  .parent-btn {
+    text-align: center;
+  }
+  .btn-daftar-viawa {
+    width: 48%;
+  }
+  .btn-daftar-viahp {
+    width: 48%;
+  }
+  .keunggulan-edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seluruh-program {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .h4-tingkat-kelulusan {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .h4-metode {
+    width: 63%;
+  }
+  .img-keunggulan {
+    width: 50%;
+  }
+  .box-jadwal {
+    display: grid;
+  }
+  .img-univ-dokter {
+    width: 100%;
+  }
+  .daftar-end {
+    text-align: center;
+  }
+  .img-promo {
+    width: 100%;
+  }
+  .parent-promo {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .parent-card {
+    padding: 10px;
+  }
+  .card-prioriti {
+    width: 90%;
+  }
+  .list-prioriti {
+    column-count: 1;
+  }
+}
+/* SURFACE PRO 7 */
+@media only screen and (max-width: 912px) {
+  .content-dokter {
+    display: grid;
+  }
+  .box-detail {
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .desk-icon {
+    margin-right: 20px;
+  }
+  .img-dokter {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .parent-btn {
+    text-align: center;
+  }
+  .btn-daftar-viawa {
+    width: 48%;
+  }
+  .btn-daftar-viahp {
+    width: 48%;
+  }
+  .keunggulan-edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seluruh-program {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .h4-tingkat-kelulusan {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .h4-metode {
+    width: 63%;
+  }
+  .img-keunggulan {
+    width: 50%;
+  }
+  .box-jadwal {
+    display: grid;
+  }
+  .img-univ-dokter {
+    width: 100%;
+  }
+  .daftar-end {
+    text-align: center;
+  }
+  .img-promo {
+    width: 100%;
+  }
+  .parent-promo {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .parent-card {
+    padding: 10px;
+  }
+  .card-prioriti {
+    width: 90%;
+  }
+  .list-prioriti {
+    column-count: 1;
+  }
+  .btn-daftar-viahp {
+    width: 48%;
+  }
+}
+/* SURFACE DUO */
+@media only screen and (max-width: 540px) {
+  .parent-promo {
+    padding: 10px;
+  }
+  .gambar-hilpi {
+    width: 50% !important;
+  }
+  .title-dokter {
+    font-size: 27px !important;
+  }
+  .btn-daftar-viahp {
+    margin-left: 10px;
+  }
+}
+/* NEST HUB */
+@media only screen and (max-width: 1024px) {
+  .content-dokter {
+    display: grid;
+  }
+  .box-detail {
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .desk-icon {
+    margin-right: 20px;
+  }
+  .img-dokter {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .parent-btn {
+    text-align: center;
+  }
+  .btn-daftar-viawa {
+    width: 48%;
+  }
+  .btn-daftar-viahp {
+    width: 48%;
+  }
+  .keunggulan-edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seluruh-program {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .h4-tingkat-kelulusan {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .h4-metode {
+    width: 63%;
+  }
+  .img-keunggulan {
+    width: 50%;
+  }
+  .box-jadwal {
+    display: grid;
+  }
+  .img-univ {
+    width: 100%;
+  }
+  .daftar-end {
+    text-align: center;
+  }
+  .img-promo {
+    width: 100%;
+  }
+  .parent-promo {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .parent-card {
+    padding: 10px;
+  }
+  .card-prioriti{
+    width: 100%;
+  }
+}
+/* NEST HUB MAX */
+@media only screen and (max-width: 1280px) {
+  .content-dokter {
+    display: grid;
+  }
+  .box-detail {
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .desk-icon {
+    margin-right: 20px;
+  }
+  .img-dokter {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .parent-btn {
+    text-align: center;
+  }
+  .btn-daftar-viawa {
+    width: 48%;
+  }
+  .btn-daftar-viahp {
+    width: 48%;
+  }
+  .keunggulan-edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seluruh-program {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .h4-tingkat-kelulusan {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .h4-metode {
+    width: 63%;
+  }
+  .img-keunggulan {
+    width: 50%;
+  }
+  .box-jadwal {
+    display: grid;
+  }
+  .img-univ {
+    width: 100%;
+  }
+  .daftar-end {
+    text-align: center;
+  }
+  .img-promo {
+    width: 100%;
+  }
+  .parent-promo {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn-daftar-viahp {
+    width: 50%;
+  }
+  .img-keunggulan {
+    width: 40%;
+  }
+  .box-jadwal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+  }
+  .parent-card {
+    padding: 10px;
+  }
+  .card-prioriti{
+    width: 100%;
+  }
+}
+
+/* IPHONE XR */
 @media only screen and (max-width: 550px) {
   .content-dokter {
     padding: 20px;
@@ -403,5 +713,57 @@
   .title-prioriti {
     font-size: 20px;
     text-align: center;
+  }
+  .title-dokter {
+    font-size: 27px;
+  }
+  .desk-dokter {
+    font-size: 18px;
+    text-align: justify;
+  }
+  .parent-card {
+    padding: 10px;
+  }
+}
+/* IPHONE SE */
+@media only screen and (max-width: 375px) {
+  .title-dokter {
+    font-size: 25px;
+  }
+  .desk-dokter {
+    font-size: 17px;
+    text-align: justify;
+  }
+  .parent-card {
+    padding: 10px;
+  }
+  .title-prioriti {
+    font-size: 18px;
+  }
+}
+/* GALAXY FOLD */
+@media only screen and (max-width: 280px) {
+  .title-dokter {
+    font-size: 23px !important;
+  }
+  .desk-dokter {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .parent-card {
+    padding: 5px;
+  }
+  .title-prioriti {
+    font-size: 17px;
+  }
+  .desk-icon {
+    margin-right: 0;
+  }
+  .btn-daftar-viahp {
+    width: 100%;
+    margin-left: 0;
+  }
+  .btn-daftar-viawa {
+    width: 100%;
   }
 }

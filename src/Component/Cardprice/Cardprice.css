@@ -136,6 +136,7 @@ ul {
   font-size: 1.4rem;
 }
 
+/* IPAD MINI */
 @media only screen and (max-width: 768px) {
   .card-li {
     display: flex;
@@ -146,7 +147,52 @@ ul {
     margin-right: 10px;
   }
 }
+/* IPAD AIR */
+@media only screen and (max-width: 820px) {
+  .card-li {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+  }
+  .check-icon {
+    margin-right: 10px;
+  }
+}
+/* SURFACE PRO 7 */
+@media only screen and (max-width: 912px) {
+  .card-li {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+  }
+  .check-icon {
+    margin-right: 10px;
+  }
+}
+/* SURFACE DUO */
+@media only screen and (max-width: 540px) {
+  .card-li {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+  }
+  .check-icon {
+    margin-right: 10px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .package {
+    margin-left: 90px !important;
+    margin-bottom: 10px;
+  }
+  .package3 {
+    margin-left: 90px !important;
+  }
+}
 
+/* IPHONE XR */
 @media only screen and (max-width: 550px) {
   .wrapper {
     display: flex;
@@ -158,5 +204,93 @@ ul {
   }
   .package3 {
     margin-left: 20px;
+  }
+}
+/* IPHONE SE */
+@media only screen and (max-width: 375px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .package {
+    margin-left: 3px;
+    margin-bottom: 10px;
+  }
+  .package3 {
+    margin-left: 3px;
+  }
+}
+/* IPHONE 12 PRO */
+@media only screen and (max-width: 390px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .package {
+    margin-left: 12px;
+    margin-bottom: 10px;
+  }
+  .package3 {
+    margin-left: 12px;
+  }
+}
+/* PIXEL 5   */
+@media only screen and (max-width: 393px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .package {
+    margin-left: 12px;
+    margin-bottom: 10px;
+  }
+  .package3 {
+    margin-left: 12px;
+  }
+}
+/* GALAXY S8+   */
+@media only screen and (max-width: 360px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .package {
+    margin-left: -3px;
+    margin-bottom: 10px;
+  }
+  .package3 {
+    margin-left: -3px;
+  }
+}
+/* GALAXY FOLD   */
+@media only screen and (max-width: 280px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .package {
+    margin-left: -18px !important ;
+    margin-right: 100px !important;
+    margin-bottom: 10px;
+  }
+  .package3 {
+    margin-left: -18px !important ;
+    margin-right: 100px !important;
+  }
+}
+/* GALAXY A51   */
+@media only screen and (max-width: 412px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .package {
+    margin-left: 18px !important ;
+    margin-right: 100px !important;
+    margin-bottom: 10px;
+  }
+  .package3 {
+    margin-left: 18px !important ;
+    margin-right: 100px !important;
   }
 }
